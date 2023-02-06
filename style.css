@@ -87,7 +87,7 @@ hr {
 }
 /* Closing mobile-menu */
 .mobile-menu {
-  position: absolute;
+  position: fixed;
   background: #ec524179;
   backdrop-filter: blur(8px);
   top: 0;
@@ -97,6 +97,7 @@ hr {
   display: none;
   animation: down 300ms ease-in;
   transform-origin: top left;
+  overflow: scroll;
 }
 
 @keyframes down {
@@ -127,9 +128,9 @@ hr {
   align-items: center;
   flex-direction: column;
   list-style: none;
-  font-size: 5rem;
-  gap: 4rem;
-  padding: 5rem;
+  font-size: 4rem;
+  gap: 3rem;
+  padding: 4rem;
   color: #fff;
   font-weight: 700;
 }
@@ -147,7 +148,7 @@ hr {
 }
 
 .mobile-logo {
-  width: 60%;
+  width: 30%;
 }
 
 .logo-imgs {
