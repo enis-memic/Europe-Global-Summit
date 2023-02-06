@@ -1,0 +1,41 @@
+/* Defaul typo and color
+Main color: #272A31;
+Color 2 : #EC5241;
+Color 3 : #D3D3D3;
+
+-- Font -
+Main font: Cocogoose;
+Font: Lato; */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  color: #272a31;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+hr {
+  background-color: #ec5241;
+  border: 1px solid #ec5241;
+  margin-top: 1rem;
+  width: 5%;
+}
+.main {
+  background-image: url('./images/background.jpg');
+  background-size: cover;
+  padding-bottom: 7rem;
+}
+.enabled-menu {
+  width: 10%;
+  margin: 2rem;
+}
