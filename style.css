@@ -150,3 +150,66 @@ hr {
   padding: 2rem;
   font-weight: 700;
 }
+
+/* Partner section */
+
+.partners-section {
+  background-color: rgb(91, 91, 91);
+  padding-top: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 2rem;
+}
+
+.partner-text {
+  font-size: 2.4rem;
+  color: #fff;
+  text-align: center;
+}
+
+.logo-partner {
+  width: 40%;
+  filter: grayscale(100%) brightness(10%) contrast(100%);
+  opacity: 0.3;
+}
+
+.logo-size {
+  width: 20%;
+  margin-left: 2rem;
+}
+
+.flex-img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+/* Footer */
+footer {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-bottom: 2rem;
+}
+
+.logo-digital {
+  width: 30%;
+  margin-left: 1rem;
+}
+
+.footer-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10rem;
+}
+
+.footer-span {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #8f8f8f;
+}
