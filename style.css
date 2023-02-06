@@ -213,3 +213,32 @@ footer {
   font-weight: 700;
   color: #8f8f8f;
 }
+/* ABOUT ME PAGE */
+.headings-about {
+  text-align: center;
+  padding: 2rem;
+}
+
+.border-paragraph-about {
+  background-color: #fff;
+  text-align: center;
+}
+
+.contact-span {
+  color: #8f8f8f;
+  font-size: 1.4rem;
+  line-height: 2.2rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.contact-href {
+  color: #272a31;
+  font-size: 1.4rem;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 1rem;
+}
