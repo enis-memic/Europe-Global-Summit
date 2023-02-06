@@ -30,6 +30,9 @@ hr {
   margin-top: 1rem;
   width: 5%;
 }
+.desktop-menu {
+  display: none;
+}
 .main {
   background-image: url('./images/background.jpg');
   background-size: cover;
@@ -82,6 +85,78 @@ hr {
   font-weight: 700;
   color: #8f8f8f;
 }
+/* Closing mobile-menu */
+.mobile-menu {
+  position: absolute;
+  background: #ec524179;
+  backdrop-filter: blur(8px);
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  display: none;
+  animation: down 300ms ease-in;
+  transform-origin: top left;
+}
+
+@keyframes down {
+  0% {
+    transform: rotateX(-90deg);
+  }
+
+  70% {
+    transform: rotateX(20deg);
+  }
+
+  100% {
+    transform: rotateX(0deg);
+  }
+}
+
+.closing-icon {
+  position: absolute;
+  width: 2.5rem;
+  height: 2.5rem;
+  top: 1rem;
+  right: 1.6rem;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  list-style: none;
+  font-size: 5rem;
+  gap: 4rem;
+  padding: 5rem;
+  color: #fff;
+  font-weight: 700;
+}
+
+.hover {
+  color: #fff;
+  text-decoration: none;
+}
+.hover:hover {
+  color: #ec5241;
+}
+
+.mobile-menu.visible {
+  display: block;
+}
+
+.mobile-logo {
+  width: 60%;
+}
+
+.logo-imgs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Main program section */
 .workshop {
   background-color: #272a31;
   padding-top: 4rem;
