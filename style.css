@@ -30,27 +30,33 @@ hr {
   margin-top: 1rem;
   width: 5%;
 }
+
 .desktop-menu {
   display: none;
 }
+
 .main {
   background-image: url('./images/background.jpg');
   background-size: cover;
   padding-bottom: 7rem;
 }
+
 .enabled-menu {
   width: 10%;
   margin: 2rem;
 }
+
 .headings {
   margin: 2rem;
 }
+
 .sub-heading {
   color: #ec5241;
   font-size: 2.6rem;
   font-family: 'Lato', sans-serif;
   font-weight: 500;
 }
+
 .main-text {
   font-size: 5rem;
   font-family: 'Lato', sans-serif;
@@ -59,16 +65,19 @@ hr {
   text-transform: uppercase;
   font-weight: 900;
 }
+
 .border-text {
   margin: 2rem;
   border: 2px solid rgb(255, 255, 255);
 }
+
 .border-paragraph {
   line-height: 2.8rem;
   font-size: 1.6rem;
   padding: 1rem;
   background-color: #ededed;
 }
+
 .date {
   margin: 2rem;
 }
@@ -85,6 +94,7 @@ hr {
   font-weight: 700;
   color: #8f8f8f;
 }
+
 /* Closing mobile-menu */
 .mobile-menu {
   position: fixed;
@@ -139,6 +149,7 @@ hr {
   color: #fff;
   text-decoration: none;
 }
+
 .hover:hover {
   color: #ec5241;
 }
@@ -226,6 +237,7 @@ hr {
   padding: 2rem;
   font-weight: 700;
 }
+
 .speakers {
   display: flex;
   margin-top: 3rem;
@@ -325,6 +337,7 @@ hr {
   align-items: center;
   margin-top: 2rem;
 }
+
 /* Footer */
 footer {
   margin-top: 2rem;
@@ -351,6 +364,7 @@ footer {
   font-weight: 700;
   color: #8f8f8f;
 }
+
 /* ABOUT ME PAGE */
 .headings-about {
   text-align: center;
@@ -380,6 +394,7 @@ footer {
   text-align: center;
   margin-top: 1rem;
 }
+
 /* Logo award section */
 .about-award {
   margin: 3rem;
@@ -415,6 +430,7 @@ footer {
   background-color: #d3d3d3;
   width: 100%;
 }
+
 /* Past events */
 .events {
   display: flex;
@@ -554,13 +570,16 @@ footer {
     flex-direction: column;
     height: 18rem;
   }
+
   .program:hover {
     border: 1px solid #fff;
   }
+
   .program-img {
     width: 20%;
     padding-top: 2rem;
   }
+
   .program-paragraph {
     width: 100%;
     text-align: center;
