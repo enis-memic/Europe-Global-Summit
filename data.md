@@ -1,1 +1,0 @@
-6th picture Lawrence Edward Page is an American business magnate, computer scientist and internet entrepreneur. He is best known for co-founding Google with Sergey Brin. Page was the CEO (chief executive officer) of Google from 1997 until August 2001 (stepping down in favor of Eric Schmidt) then from April 2011 until July 2015 when he moved to become CEO of Alphabet Inc.
