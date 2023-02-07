@@ -45,7 +45,7 @@ const presenters = [
 
 presenters.forEach((speaker) => {
   const presenting = document.querySelector('.presenters');
-  const presenter = document.createElement('div');
+  const presenter = document.createElement('article');
   presenter.classList.add('speakers');
   presenting.appendChild(presenter);
 

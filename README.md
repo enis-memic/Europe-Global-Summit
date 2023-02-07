@@ -131,7 +131,9 @@ If you like this project please leave a star on the project!
 
 - MICROVERSE
 
-- @Cindy Shin
+- BEHANCE
+
+- [@cindy-shin](https://www.behance.net/adagio07) - author of design
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
