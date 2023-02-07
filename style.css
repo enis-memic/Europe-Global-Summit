@@ -394,3 +394,197 @@ footer {
   color: #fff;
   font-weight: 900;
 }
+
+@media (min-width: 768px) {
+  .desktop-menu {
+    display: block;
+    background-color: #fff;
+  }
+
+  .pre-header {
+    background-color: #272a31;
+    padding: 1rem;
+  }
+
+  .header {
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    place-content: center;
+    place-items: center;
+    gap: 2rem;
+  }
+
+  .enabled-menu {
+    display: none;
+  }
+
+  .header-logo {
+    width: 30%;
+    cursor: pointer;
+  }
+
+  .hover {
+    color: #272a31;
+  }
+
+  .headings-about {
+    margin-left: 6rem;
+  }
+
+  .uo-list-header {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    font-size: 1.6rem;
+  }
+
+  .button-nav {
+    border: 2px solid #ec5241;
+    font-size: 1.6rem;
+    text-align: center;
+    margin-right: 4rem;
+    padding: 1rem;
+    cursor: pointer;
+  }
+
+  .pre-header-flex {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .icon {
+    font-size: 2.5rem;
+    color: #fff;
+  }
+
+  .tabs {
+    color: #fff;
+  }
+
+  .headings {
+    padding: 2rem;
+    margin-left: 6rem;
+    width: 60%;
+  }
+
+  .border-text {
+    width: 50%;
+    margin-left: 7rem;
+  }
+
+  .date-heading {
+    margin-left: 5rem;
+  }
+
+  .date-span {
+    margin-left: 5rem;
+  }
+
+  .program {
+    display: flex;
+    grid-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 18rem;
+  }
+  .program:hover {
+    border: 1px solid #fff;
+  }
+  .program-img {
+    width: 20%;
+    padding-top: 2rem;
+  }
+  .program-paragraph {
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .flex-program {
+    display: flex;
+    flex-direction: row;
+    padding: 3rem;
+    gap: 2rem;
+  }
+
+  .join {
+    display: none;
+  }
+
+  .join-now {
+    color: #fff;
+    font-size: 1.6rem;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+
+  .flex-img {
+    margin-top: 0.5rem;
+  }
+
+  .presenters {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: 40% 40%;
+  }
+
+  .bg-chess {
+    width: 5%;
+  }
+
+  .featured-speakers {
+    margin-top: -5rem;
+    width: 80vw;
+  }
+
+  .sizing {
+    margin-left: -3rem;
+  }
+
+  .red-line-size {
+    background-color: #ec5241;
+    border: 1.5px solid #ec5241;
+    width: 13%;
+    margin-left: -3rem;
+  }
+
+  .logo-partner {
+    width: 10%;
+    gap: 2rem;
+  }
+
+  .logo-digital {
+    width: 15%;
+  }
+
+  .border-text-about {
+    width: 80%;
+    margin-left: 15rem;
+  }
+
+  .logo-award {
+    width: 50%;
+  }
+
+  .logo-img {
+    width: 20%;
+  }
+
+  .events {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+    margin-bottom: 4rem;
+  }
+
+  .carousel {
+    width: 20%;
+  }
+}
