@@ -1,0 +1,702 @@
+/* Defaul typo and color
+Main color: #272A31;
+Color 2 : #EC5242;
+Color 3 : #D3D3D3;
+
+-- Font -
+Main font: Cocogoose;
+Font: Lato; */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  color: #272a31;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+hr {
+  background-color: #ec5242;
+  border: 1px solid #ec5242;
+  margin-top: 1rem;
+  width: 5%;
+}
+
+.desktop-menu {
+  display: none;
+}
+
+.main {
+  background-image: url('./images/backgroundHeader.png');
+  background-size: cover;
+  padding-bottom: 7rem;
+}
+
+.enabled-menu {
+  width: 10%;
+  margin: 2rem;
+}
+
+.headings {
+  margin: 2rem;
+}
+
+.sub-heading {
+  color: #ec5242;
+  font-size: 2.6rem;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+}
+
+.main-text {
+  font-size: 5rem;
+  font-family: 'Lato', sans-serif;
+  color: #ec5242;
+  margin-top: 1rem;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.border-text {
+  margin: 2rem;
+  border: 2px solid rgb(255, 255, 255);
+}
+
+.border-paragraph {
+  line-height: 2.8rem;
+  font-size: 1.6rem;
+  padding: 1rem;
+  background-color: #ededed;
+}
+
+.date {
+  margin: 2rem;
+}
+
+.date-heading {
+  font-size: 2.8rem;
+  font-weight: 900;
+  color: #272a31;
+  margin-bottom: 1rem;
+}
+
+.date-span {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #8f8f8f;
+}
+
+/* Closing mobile-menu */
+.mobile-menu {
+  position: fixed;
+  background: #ec524179;
+  backdrop-filter: blur(8px);
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  display: none;
+  animation: down 300ms ease-in;
+  transform-origin: top left;
+  overflow: scroll;
+}
+
+@keyframes down {
+  0% {
+    transform: rotateX(-90deg);
+  }
+
+  70% {
+    transform: rotateX(20deg);
+  }
+
+  100% {
+    transform: rotateX(0deg);
+  }
+}
+
+.closing-icon {
+  position: absolute;
+  width: 2.5rem;
+  height: 2.5rem;
+  top: 1rem;
+  right: 1.6rem;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  list-style: none;
+  font-size: 4rem;
+  gap: 3rem;
+  padding: 4rem;
+  color: #fff;
+  font-weight: 700;
+}
+
+.hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.hover:hover {
+  color: #ec5242;
+}
+
+.mobile-menu.visible {
+  display: block;
+}
+
+.mobile-logo {
+  width: 30%;
+}
+
+.logo-imgs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Main program section */
+.workshop {
+  background-color: #272a31;
+  background-image: url('./images/patternBackgroundmain.png');
+  padding-top: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 8rem;
+}
+
+.h4-text {
+  font-size: 2.4rem;
+  color: #fff;
+  text-align: center;
+}
+
+.red-line {
+  background-color: #ec5242;
+  border: 1px solid #ec5242;
+  margin-top: 1rem;
+  width: 5%;
+}
+
+.program {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #7a7d9161;
+  margin-top: 1rem;
+  width: 80%;
+}
+
+.flex-program {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.program-img {
+  width: 10%;
+  margin-left: 1rem;
+}
+
+.program-text {
+  font-size: 1.6rem;
+  color: #ec5242;
+  text-align: center;
+  font-weight: 700;
+}
+
+.program-paragraph {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  color: #fff;
+  width: 40%;
+}
+
+.join {
+  background-color: #ec5242;
+  color: #fff;
+  margin-top: 3rem;
+  font-size: 1.6rem;
+  padding: 2rem;
+  font-weight: 700;
+}
+
+.speakers {
+  display: flex;
+  margin-top: 3rem;
+  justify-content: center;
+  gap: 1rem;
+  padding-bottom: 2rem;
+}
+
+.featured-speakers {
+  font-size: 2.4rem;
+  color: #272a31;
+  text-align: center;
+}
+
+.bg-img {
+  width: 15%;
+  position: absolute;
+  z-index: 1;
+  margin-top: -1rem;
+  margin-left: 0.5rem;
+}
+
+.presenters {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.speakers-img {
+  z-index: 2;
+  position: relative;
+  margin-left: 1.5rem;
+  height: 60%;
+}
+
+.speakers-text {
+  font-size: 1.8rem;
+}
+
+.speaker-name {
+  font-size: 1.8rem;
+}
+
+.speaker-title {
+  color: #ec5242;
+  font-size: 1.4rem;
+}
+
+.speaker-description {
+  font-size: 1.4rem;
+  width: 90%;
+  margin-top: 1rem;
+}
+
+.hr {
+  background-color: #d3d3d3;
+  border: 1px solid #d3d3d3;
+  width: 10%;
+  margin-top: 0.5rem;
+}
+
+/* Partner section */
+
+.partners-section {
+  background-color: rgb(91, 91, 91);
+  padding-top: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 2rem;
+}
+
+.partner-text {
+  font-size: 2.4rem;
+  color: #fff;
+  text-align: center;
+}
+
+.logo-partner {
+  width: 40%;
+  filter: grayscale(100%) brightness(10%) contrast(100%);
+  opacity: 0.3;
+}
+
+.logo-size {
+  width: 20%;
+  margin-left: 2rem;
+}
+
+.flex-img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+/* Footer */
+footer {
+  padding-top: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding-bottom: 2rem;
+}
+
+.footer-about {
+  background-color: #272a31;
+}
+
+.logo-digital {
+  width: 30%;
+  margin-left: 1rem;
+}
+
+.footer-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10rem;
+}
+
+.footer-span {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #8f8f8f;
+}
+
+/* ABOUT ME PAGE */
+.about-main {
+  background-image: url('./images/backgroundHeaderAbout.png');
+  background-color: #f1f1f1;
+  background-size: cover;
+  padding-bottom: 7rem;
+}
+
+.headings-about {
+  text-align: center;
+  padding: 2rem;
+}
+
+.border-paragraph-about {
+  background-color: #fff;
+  text-align: center;
+}
+
+.contact-span {
+  color: #8f8f8f;
+  font-size: 1.4rem;
+  line-height: 2.2rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.contact-href {
+  color: #272a31;
+  font-size: 1.4rem;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+/* Logo award section */
+.about-award {
+  margin: 3rem;
+}
+
+.award {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.certification {
+  text-align: center;
+  font-size: 2.4rem;
+}
+
+.logo-award {
+  margin-top: 2rem;
+  font-size: 1.8rem;
+  line-height: 1.8;
+  text-align: center;
+}
+
+.logo-img {
+  border: 1px solid #d3d3d3;
+  width: 40%;
+  margin-top: 2rem;
+}
+
+.black-line {
+  border: 1px solid #d3d3d3;
+  background-color: #d3d3d3;
+  width: 100%;
+}
+
+/* Past events */
+.events {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.carousel {
+  margin: 2rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(248, 65, 65);
+  width: 80%;
+}
+
+.card {
+  width: 100%;
+  opacity: 0.5;
+}
+
+.year {
+  margin: 0;
+  position: absolute;
+  top: 40%;
+  font-size: 3.2rem;
+  color: #fff;
+  font-weight: 900;
+}
+
+.text-event {
+  margin: 0;
+  position: absolute;
+  top: 55%;
+  font-size: 3.2rem;
+  color: #fff;
+  font-weight: 900;
+}
+
+@media (min-width: 768px) {
+  .main {
+    background-position: 100% 100%;
+  }
+
+  .about-main {
+    background-image: url('./images/backgroundHeaderAbout.png');
+    background-color: #f1f1f1;
+    background-size: cover;
+  }
+
+  .desktop-menu {
+    display: block;
+    background-color: #fff;
+  }
+
+  .pre-header {
+    background-color: #272a31;
+    padding: 1rem;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+  }
+
+  .header-list-div {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+
+  .enabled-menu {
+    display: none;
+  }
+
+  .header-logo {
+    width: 30%;
+    cursor: pointer;
+  }
+
+  .hover {
+    color: #272a31;
+  }
+
+  .headings-about {
+    margin-left: 6rem;
+  }
+
+  .uo-list-header {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    font-size: 1.6rem;
+  }
+
+  .button-nav {
+    border: 2px solid #ec5242;
+    font-size: 1.6rem;
+    text-align: center;
+    margin-right: 4rem;
+    padding: 1rem;
+    cursor: pointer;
+  }
+
+  .pre-header-flex {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .icon {
+    font-size: 2.5rem;
+    color: #fff;
+  }
+
+  .tabs {
+    color: #fff;
+  }
+
+  .headings {
+    padding: 2rem;
+    margin-left: 6rem;
+    width: 60%;
+  }
+
+  .border-text {
+    width: 50%;
+    margin-left: 7rem;
+  }
+
+  .date-heading {
+    margin-left: 5rem;
+  }
+
+  .date-span {
+    margin-left: 5rem;
+  }
+
+  .program {
+    display: flex;
+    grid-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 18rem;
+  }
+
+  .program:hover {
+    border: 1px solid #fff;
+  }
+
+  .program-img {
+    width: 20%;
+    padding-top: 2rem;
+  }
+
+  .program-paragraph {
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .flex-program {
+    display: flex;
+    flex-direction: row;
+    padding: 3rem;
+    gap: 2rem;
+  }
+
+  .join {
+    display: none;
+  }
+
+  .join-now {
+    color: #fff;
+    font-size: 1.6rem;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+
+  .flex-img {
+    margin-top: 0.5rem;
+  }
+
+  .presenters {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: 40% 40%;
+  }
+
+  .speakers-img {
+    height: 80%;
+  }
+
+  .bg-img {
+    width: 8%;
+  }
+
+  .featured-speakers {
+    margin-top: -5rem;
+    width: 80vw;
+  }
+
+  .sizing {
+    margin-left: -3rem;
+  }
+
+  .red-line-size {
+    background-color: #ec5242;
+    border: 1.5px solid #ec5242;
+    width: 13%;
+    margin-left: -3rem;
+  }
+
+  .logo-partner {
+    width: 10%;
+    gap: 2rem;
+  }
+
+  .logo-digital {
+    width: 15%;
+  }
+
+  .border-text-about {
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 7rem;
+    margin-top: 3rem;
+  }
+
+  .logo-award {
+    width: 50%;
+  }
+
+  .logo-img {
+    width: 20%;
+  }
+
+  .events {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+    margin-bottom: 4rem;
+  }
+
+  .carousel {
+    width: 20%;
+  }
+}
