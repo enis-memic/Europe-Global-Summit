@@ -346,9 +346,11 @@ footer {
   flex-direction: row;
   padding-bottom: 2rem;
 }
+
 .footer-about {
   background-color: #272a31;
 }
+
 .logo-digital {
   width: 30%;
   margin-left: 1rem;
@@ -374,6 +376,7 @@ footer {
   background-size: cover;
   padding-bottom: 7rem;
 }
+
 .headings-about {
   text-align: center;
   padding: 2rem;
@@ -485,11 +488,13 @@ footer {
   .main {
     background-position: 100% 100%;
   }
+
   .about-main {
     background-image: url('./images/backgroundHeaderAbout.png');
     background-color: #f1f1f1;
     background-size: cover;
   }
+
   .desktop-menu {
     display: block;
     background-color: #fff;
@@ -505,11 +510,13 @@ footer {
     justify-content: space-between;
     gap: 2rem;
   }
+
   .header-list-div {
     display: flex;
     justify-content: space-between;
     gap: 2rem;
   }
+
   .enabled-menu {
     display: none;
   }
